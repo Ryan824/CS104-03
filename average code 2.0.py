@@ -6,12 +6,14 @@ average = 0.0
 scoreCount = 0
 numberOfScores = int(input("Please enter the number of scores you want to average: "))
 
+print (scoreCount)
+
 while scoreCount < numberOfScores:
-    print (scoreCount)
     score = int(input("Please enter a score: "))
     total = total + score
     scoreCount = scoreCount + 1
     
 average = total / numberOfScores
+print ("The average is: ")
 print(average)
 
